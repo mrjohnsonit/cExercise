@@ -12,7 +12,7 @@
             - Loading: ToConsoleModule
                 - I am using AutoFac for the IoC/Dependency Injection pattern (more details to come)
                 - This is the injection bindings module that is being used (shown for clarity)
-              	    - https://en.wikipedia.org/wiki/Inversion_of_control 
+              	    - [Link](https://en.wikipedia.org/wiki/Inversion_of_control)
               	    - https://www.nuget.org/packages/Autofac/
               	    - https://www.nuget.org/packages/Autofac.Configuration/ 	         
 
