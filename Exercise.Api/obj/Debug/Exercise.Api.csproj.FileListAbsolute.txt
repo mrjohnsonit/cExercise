@@ -1,0 +1,7 @@
+D:\+code\Crow\Exercise.Api\bin\Debug\Exercise.Api.dll
+D:\+code\Crow\Exercise.Api\bin\Debug\Exercise.Api.pdb
+D:\+code\Crow\Exercise.Api\bin\Debug\Exercise.Domain.dll
+D:\+code\Crow\Exercise.Api\bin\Debug\Exercise.Domain.pdb
+D:\+code\Crow\Exercise.Api\obj\Debug\Exercise.Api.csprojResolveAssemblyReference.cache
+D:\+code\Crow\Exercise.Api\obj\Debug\Exercise.Api.dll
+D:\+code\Crow\Exercise.Api\obj\Debug\Exercise.Api.pdb
