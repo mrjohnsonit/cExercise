@@ -1,7 +1,0 @@
-D:\+code\Crow\Exercise.App.ToConsole\bin\Debug\Exercise.App.ToConsole.dll
-D:\+code\Crow\Exercise.App.ToConsole\bin\Debug\Exercise.App.ToConsole.pdb
-D:\+code\Crow\Exercise.App.ToConsole\bin\Debug\Exercise.Domain.dll
-D:\+code\Crow\Exercise.App.ToConsole\bin\Debug\Exercise.Domain.pdb
-D:\+code\Crow\Exercise.App.ToConsole\obj\Debug\Exercise.App.ToConsole.csprojResolveAssemblyReference.cache
-D:\+code\Crow\Exercise.App.ToConsole\obj\Debug\Exercise.App.ToConsole.dll
-D:\+code\Crow\Exercise.App.ToConsole\obj\Debug\Exercise.App.ToConsole.pdb
