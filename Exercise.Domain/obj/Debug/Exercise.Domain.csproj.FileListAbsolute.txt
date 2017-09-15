@@ -1,0 +1,4 @@
+D:\+code\Crow\Exercise.Domain\bin\Debug\Exercise.Domain.dll
+D:\+code\Crow\Exercise.Domain\bin\Debug\Exercise.Domain.pdb
+D:\+code\Crow\Exercise.Domain\obj\Debug\Exercise.Domain.dll
+D:\+code\Crow\Exercise.Domain\obj\Debug\Exercise.Domain.pdb
