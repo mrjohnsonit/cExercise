@@ -15,7 +15,7 @@ namespace Exercise.App.ToFile
             var appDir = AppDomain.CurrentDomain.BaseDirectory.TrimEnd(new[] { '\\' });
             var filePath = $@"{appDir}\Exercise.txt";
             File.WriteAllText(filePath, message);
-            Console.WriteLine($"Message written to:\r\n{filePath}.\r\nPress any key to continue.");
+            Console.WriteLine($"Message written to:\r\n{filePath}.");
         }
     }
 }

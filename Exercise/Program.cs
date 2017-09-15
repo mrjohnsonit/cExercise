@@ -32,6 +32,7 @@ namespace Exercise
                 app.WriteMessage(api.GetHelloWorldMessage());
 
                 //allow for viewing of messages before completion
+                System.Console.WriteLine("Press any key to continue.");
                 System.Console.ReadKey();
             }
         }
