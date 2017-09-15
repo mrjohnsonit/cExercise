@@ -10,8 +10,11 @@
       - Run the app and it will display 'Hello World' in a console app
       - The following line will appear above 'Hello World'
           - Loading: ToConsoleModule
+              - I am using AutoFac for the IoC/Dependency Injection pattern (more details to come)
               - This is the injection bindings module that is being used
-              - I am using AutoFac for the IoC/Dependency Injection pattern (more details below)
+              	- https://en.wikipedia.org/wiki/Inversion_of_control 
+              	- https://www.nuget.org/packages/Autofac/
+              	- https://www.nuget.org/packages/Autofac.Configuration/ 	         
 
 ### 2. The program should have an API that is separated from the program logic to eventually support mobile applications, web applications, console applications or windows services.
 	
@@ -29,11 +32,25 @@
 		- Each one of these define a different way to write 'Hello World'
 		- None of the these projects reference the Exercise.Api project
 			- The api to use is determined at runtime (although there is only one api definition) 
+			- This ensure total separation of concerns
 	- The only projects that have direct references to concrete implementations of the app or api are:
 		- Exercise.Bindings
 			- Define what concrete object to use at runtime
 		- Exercise.Tests
 			- NUnit & Moq unit tests
+     - Other api deatils
+     	- I separated the api into 2 layers to create a hypothetical separation of concerns
+     		- MessageService
+     			- This is the common area and the 1st layer for all api calls
+     			- This could handle all authorization, parameter validation, then call to the 2nd layer 'Provider' to carry out the business rule
+     			- This creates a nice separation of concerns and makes the business code cleaner in my opinion
+     			- I opted to create a MessageService to  
+     			- This service can be added a any top level api layer such as a Web Api
+     		- MessageProvider
+     			- For this exercise MessageProvider returns the string 'HelloWorld'; but that could just as easily have come from a database, file, etc.
+     			- The MessageService takes in the IMessageProvider in the constructor so it can be injected with the IoC container
+     				- This also makes testing of the MessageService possible without testing it with a specific implentation of the IMessageProvider 
+     					- This is where unit testing mocking comes into play (more details later) 	    	 
     
 
 
@@ -63,7 +80,7 @@
 
 ### 4. Write unit tests to support the API.
 
-	- I'm using NUnit and Moq for unit testing
+	- I'm using NUnit and Moq (mocking) for unit testing
     	- https://www.nuget.org/packages/NUnit/
     	- https://www.nuget.org/packages/Moq/	 
 	- I wrote complete unit tests for the following
