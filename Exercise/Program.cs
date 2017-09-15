@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using System;
+using Autofac;
 using Autofac.Configuration;
 using Exercise.Domain.Api;
 using Exercise.Domain.App;

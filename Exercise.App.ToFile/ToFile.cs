@@ -13,7 +13,7 @@ namespace Exercise.App.ToFile
         void IExerciseApp.WriteMessage(string message)
         {
             var appDir = AppDomain.CurrentDomain.BaseDirectory.TrimEnd(new[] { '\\' });
-            var filePath = $@"{appDir}\exercise.txt";
+            var filePath = $@"{appDir}\Exercise.txt";
             File.WriteAllText(filePath, message);
             Console.WriteLine($"Message written to:\r\n{filePath}.\r\nPress any key to continue.");
         }
