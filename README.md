@@ -5,13 +5,13 @@
 	
 	- To Run
 		- Set the startup project to 'Exercise'
-			- This is a common console applicatiton project 
-      - This is the default behavior of the app 
+			- This is a common console applicatiton project
       - Run the app and it will display 'Hello World' in a console app
+      	- Default application behavior
       - The following line will appear above 'Hello World'
           - Loading: ToConsoleModule
               - I am using AutoFac for the IoC/Dependency Injection pattern (more details to come)
-              - This is the injection bindings module that is being used
+              - This is the injection bindings module that is being used (shown for clarity)
               	- https://en.wikipedia.org/wiki/Inversion_of_control 
               	- https://www.nuget.org/packages/Autofac/
               	- https://www.nuget.org/packages/Autofac.Configuration/ 	         
