@@ -12,7 +12,7 @@
             - Loading: ToConsoleModule
                 - I am using AutoFac for the IoC/Dependency Injection pattern (more details to come)
                 - This is the injection bindings module that is being used (shown for clarity)
-              	    - [Link](https://en.wikipedia.org/wiki/Inversion_of_control)
+              	    - https://en.wikipedia.org/wiki/Inversion_of_control
               	    - https://www.nuget.org/packages/Autofac/
               	    - https://www.nuget.org/packages/Autofac.Configuration/ 	         
 
@@ -44,7 +44,6 @@
      			- This is the common area and the 1st layer for all api calls
      			- This could handle all authorization, parameter validation, then call to the 2nd layer 'Provider' to carry out the business rule
      			- This creates a nice separation of concerns and makes the business code cleaner in my opinion
-     			- I opted to create a MessageService to  
      			- This service can be added a any top level api layer such as a Web Api
      		- MessageProvider
      			- For this exercise MessageProvider returns the string 'HelloWorld'; but that could just as easily have come from a database, file, etc.
